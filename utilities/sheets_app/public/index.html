@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheets Aggregation</title>
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sheets Aggregation Viewer</h1>
+      <div class="controls">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Filter rows..."
+          aria-label="Filter rows"
+        />
+        <button id="refreshButton" type="button">Refresh</button>
+        <span id="status"></span>
+      </div>
+    </header>
+
+    <main>
+      <div id="tableContainer"></div>
+    </main>
+
+    <script src="/public/main.js"></script>
+  </body>
+</html>
